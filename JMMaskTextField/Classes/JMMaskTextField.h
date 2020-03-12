@@ -16,5 +16,7 @@ IB_DESIGNABLE
 @property (strong, nonatomic) IBInspectable NSString *maskString;
 @property (strong, nonatomic, readonly) JMStringMask *mask;
 @property (readonly, nonatomic) NSString *unmaskedText;
+@property (nonatomic) SEL classSelector;
+@property (strong, nonatomic) UIViewController *realController;
 
 @end
