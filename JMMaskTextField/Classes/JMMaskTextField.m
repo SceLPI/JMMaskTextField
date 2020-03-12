@@ -150,6 +150,8 @@
             textField.selectedTextRange = [textField textRangeFromPosition:startPosition toPosition:endPosition];
         }
         
+        [self.realController performSelector:self.classSelector withObject:self];
+        
         return NO;
     }
     
